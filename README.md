@@ -1,2 +1,0 @@
-# Sel
-Repository For Jenkins
