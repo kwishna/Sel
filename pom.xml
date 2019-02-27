@@ -42,12 +42,17 @@
     <artifactId>selenium-server</artifactId>
     <version>3.141.59</version>
 </dependency>
-  <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>6.14.3</version>
-    <scope>test</scope>
+    <scope>compile</scope>
+    <exclusions>
+    	<exclusion>
+    		<groupId>junit</groupId>
+    		<artifactId>junit</artifactId>
+    	</exclusion>
+    </exclusions>
 </dependency>
   
   </dependencies>
